@@ -80,3 +80,7 @@ img {
 .text-center {
   text-align: center;
 }
+
+html {
+  scroll-behavior: smooth;
+}

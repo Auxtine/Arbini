@@ -1,4 +1,4 @@
-import HeroImage from "../../assets/bg-image1.png";
+import HeroImage from "../../assets/file_0.png";
 import CV from "../../assets/SAMPLE.pdf";
 import "./hero.css";
 
@@ -14,11 +14,11 @@ export default function Hero() {
             Web Developer based in Abuja, Nigeria.
           </h1>
           <p className="para">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-            quis earum, voluptatibus blanditiis officia hic repellat perferendis
+            I craft engaging, responsive websites using modern tools like React
+            and JavaScript. Let's build something amazing together.
           </p>
           <div className="flex gap-2">
-            <a href="#" className="btn">
+            <a href="#projects" className="btn">
               View My Works
             </a>
             <a href={CV} download="My CV" className="btn border-btn">

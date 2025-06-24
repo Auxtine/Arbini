@@ -1,5 +1,5 @@
 import "./aboutme.css";
-import AboutImage from "../../assets/bg-image1.png";
+import AboutImage from "../../assets/file_0-r.png";
 import CV from "../../assets/SAMPLE.pdf";
 
 export default function AboutMe() {

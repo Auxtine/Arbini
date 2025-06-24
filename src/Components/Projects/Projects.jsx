@@ -32,7 +32,7 @@ export default function Projects() {
   });
 
   return (
-    <section>
+    <section id="projects">
       <div className="wrapper p-block-9">
         <div className="flex between gap-4">
           <div>
