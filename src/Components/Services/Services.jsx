@@ -1,16 +1,36 @@
 import { FaPenRuler } from "react-icons/fa6";
 import { FaPenNib, FaLaptopCode, FaArrowRight } from "react-icons/fa";
 import "./services.css";
+import { useState } from "react";
 
 export default function Services() {
+  const [activeCard, setActiveCard] = useState(null);
+
+  const toggleCard = (id) => {
+    setActiveCard((prevId) => (prevId === id ? null : id));
+  };
+
   const renderServicesData = servicesData.map((service) => {
     return (
       <div className="card design" key={service.id}>
         <span className="service-icon">{service.icon}</span>
         <h4 className="m-block-1">{service.title}</h4>
-        <p className="m-block-1 hide-text">{service.description}</p>
-        <a href="#" className="link">
-          Learn More &nbsp;
+        <p
+          className={`m-block-1 ${
+            activeCard === service.id ? "" : "hide-text"
+          }`}
+        >
+          {service.description}
+        </p>
+        <a
+          href="#"
+          className="link"
+          onClick={(e) => {
+            e.preventDefault();
+            toggleCard(service.id);
+          }}
+        >
+          {activeCard === service.id ? "Show Less" : "Learn More"} &nbsp;
           <FaArrowRight className="arrow green-text" />
         </a>
       </div>
@@ -43,23 +63,30 @@ export default function Services() {
 const servicesData = [
   {
     id: 1,
-    title: "UI/UX Design",
+    title: "Responsive Web Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quisquam praesentium est deleniti quo dolor? Nisi at culpa dolores itaque earum quaerat minus, architecto molestias quasi vel consectetur numquam nam.",
+      "I build websites that look and work great on desktops, tablets, and mobile devices using HTML, CSS, and JavaScript framworks like React.",
     icon: <FaPenRuler />,
   },
   {
     id: 2,
-    title: "Application Design",
+    title: "Single Page Application (SPA)",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quisquam praesentium est deleniti quo dolor? Nisi at culpa dolores itaque earum quaerat minus, architecto molestias quasi vel consectetur numquam nam.",
+      "I create fast, seamless, and interactive SPAs using React to deliver modern user experiences.",
     icon: <FaPenNib />,
   },
   {
     id: 3,
-    title: "Website Design",
+    title: "UI Implementation from Designs",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quisquam praesentium est deleniti quo dolor? Nisi at culpa dolores itaque earum quaerat minus, architecto molestias quasi vel consectetur numquam nam.",
+      "I turn Figma, Adobe XD, or Sketch designs into fully functional, pixel-perfect websites with clean, maintable code.",
+    icon: <FaLaptopCode />,
+  },
+  {
+    id: 4,
+    title: "Website Redesign or Revamp",
+    description:
+      "I modernize outdated sites with a fresh look, better layout, and improved usability.",
     icon: <FaLaptopCode />,
   },
 ];
