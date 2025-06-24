@@ -17,22 +17,34 @@ export default function AboutMe() {
             Who is <span className="green-text">Arbini?</span>
           </h2>
           <p className="para">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-            molestiae corrupti sunt. Rerum velit sint quasi tempora, hic maiores
-            ex maxime ullam fugit, excepturi iusto quae explicabo odio,
-            veritatis libero!
+            I'm Arbini, a passionate frontend developer based in Abuja, Nigeria.
+            I specialize in building modern, responsive websites using tools
+            like React, JavaScript, and CSS. My goal is to create user-friendly
+            interfaces that not only look great but also function smoothly
+            across all devices.
+          </p>
+          <p className="para">
+            I enjoy bringing ideas to life in the browser and constantly
+            improving my skills through hands-on projects. Whether it's
+            translating a UI design into code or optimizing a site for
+            performance, I take pride in writing clean, efficient code.
+          </p>
+          <p className="para">
+            When I'm not coding, I'm likely exploring new tech trends or
+            refining my existing projects. I'm always open to exciting
+            opportunities and collaborations that challenge me to grow.
           </p>
           <div className="flex gap-2 m-block-3">
             <div>
-              <h6>6000+</h6>
+              <h6>10+</h6>
               <p>Projects Completed</p>
             </div>
             <div>
-              <h6>20+</h6>
+              <h6>05+</h6>
               <p>Industry Covered</p>
             </div>
             <div>
-              <h6>06+</h6>
+              <h6>02+</h6>
               <p>Years Of Experience</p>
             </div>
           </div>

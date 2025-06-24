@@ -1,4 +1,6 @@
+// App.jsx
 import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar/Navbar.jsx";
 import Hero from "./Components/Hero/Hero.jsx";
 import Headline from "./Components/Headline/Headline.jsx";
@@ -10,10 +12,11 @@ import Plans from "./Components/Plans/Plans.jsx";
 import Testimonial from "./Components/Testimonial/Testimonial.jsx";
 import ContactMe from "./Components/ContactMe/ContactMe.jsx";
 import Footer from "./Components/Footer/Footer.jsx";
+import AllServices from "./Components/Services/AllServices.jsx"; // ✅ Import new page
 
-function App() {
+function Home() {
   return (
-    <div>
+    <>
       <Navbar />
       <Hero />
       <Headline />
@@ -28,7 +31,18 @@ function App() {
       <ContactMe />
       <Headline />
       <Footer />
-    </div>
+    </>
+  );
+}
+
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/services" element={<AllServices />} />
+      </Routes>
+    </Router>
   );
 }
 
