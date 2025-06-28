@@ -42,6 +42,11 @@ h3 {
   margin-top: 2rem;
 }
 
+.small-text {
+  font-size: 0.875rem;
+  color: var(--text-primary-clr);
+}
+
 @media screen and (max-width: 790px) {
   .list {
     padding: 0.8rem 1.5rem;

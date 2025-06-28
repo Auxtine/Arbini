@@ -13,6 +13,7 @@ import Testimonial from "./Components/Testimonial/Testimonial.jsx";
 import ContactMe from "./Components/ContactMe/ContactMe.jsx";
 import Footer from "./Components/Footer/Footer.jsx";
 import AllServices from "./Components/Services/AllServices.jsx"; // ✅ Import new page
+import AllProjects from "./Components/Projects/AllProjects.jsx";
 
 function Home() {
   return (
@@ -41,6 +42,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<AllServices />} />
+        <Route path="/projects" element={<AllProjects />} />
       </Routes>
     </Router>
   );
