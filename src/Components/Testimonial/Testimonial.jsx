@@ -36,7 +36,7 @@ export default function Testimonial() {
   });
 
   return (
-    <section>
+    <section id="testimonials">
       <div className="wrapper p-block-9 border-btm">
         <div className="text-center">
           <span

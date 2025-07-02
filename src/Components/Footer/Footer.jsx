@@ -45,7 +45,12 @@ export default function Footer() {
               <a href="#" className="icon-container green-inverse">
                 <FaInstagram />
               </a>
-              <a href="#" className="icon-container green-inverse">
+              <a
+                href="https://www.linkedin.com/in/ezra-austine"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="icon-container green-inverse"
+              >
                 <FaLinkedin />
               </a>
             </div>

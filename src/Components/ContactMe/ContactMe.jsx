@@ -215,7 +215,12 @@ export default function ContactMe() {
                 <a href="#" className="icon-container black-inverse">
                   <FaInstagram />
                 </a>
-                <a href="#" className="icon-container black-inverse">
+                <a
+                  href="https://www.linkedin.com/in/ezra-austine"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="icon-container black-inverse"
+                >
                   <FaLinkedin />
                 </a>
               </div>

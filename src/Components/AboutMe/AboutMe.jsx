@@ -4,7 +4,7 @@ import CV from "../../assets/SAMPLE.pdf";
 
 export default function AboutMe() {
   return (
-    <section>
+    <section id="about-me">
       <div className="flex gap-5 wrapper p-block-9 border-btm">
         <div className="about-image">
           <img src={AboutImage} />

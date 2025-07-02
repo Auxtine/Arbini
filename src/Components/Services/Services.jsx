@@ -39,7 +39,7 @@ export default function Services() {
     );
   });
   return (
-    <section>
+    <section id="services">
       <div className="wrapper p-block-9 border-btm">
         <div className="flex between gap-4">
           <div>

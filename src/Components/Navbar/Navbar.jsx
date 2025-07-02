@@ -36,22 +36,22 @@ export default function Navbar() {
             </a>
           </li>
           <li>
-            <a href="#" className="link">
+            <a href="#services" className="link">
               Services
             </a>
           </li>
           <li>
-            <a href="#" className="link">
+            <a href="#about-me" className="link">
               About me
             </a>
           </li>
           <li>
-            <a href="#" className="link">
+            <a href="#projects" className="link">
               Projects
             </a>
           </li>
           <li>
-            <a href="#" className="link">
+            <a href="#testimonials" className="link">
               Testimonials
             </a>
           </li>
@@ -70,7 +70,7 @@ export default function Navbar() {
           >
             {theme === "dark" ? <FiSun /> : <IoMoonOutline />}
           </a>
-          <a href="#" className="btn">
+          <a href="#contact-me" className="btn">
             Let's Talk
           </a>
           <a href="#" className="hamburger" onClick={toggleMenu}>
@@ -85,37 +85,61 @@ export default function Navbar() {
           }`}
         >
           <li>
-            <a href="#" className="link">
+            <a href="#" className="link" onClick={() => setIsMenuActive(false)}>
               Home
             </a>
           </li>
           <li>
-            <a href="#" className="link">
+            <a
+              href="#services"
+              className="link"
+              onClick={() => setIsMenuActive(false)}
+            >
               Services
             </a>
           </li>
           <li>
-            <a href="#" className="link">
+            <a
+              href="#about-me"
+              className="link"
+              onClick={() => setIsMenuActive(false)}
+            >
               About me
             </a>
           </li>
           <li>
-            <a href="#" className="link">
+            <a
+              href="#projects"
+              className="link"
+              onClick={() => setIsMenuActive(false)}
+            >
               Projects
             </a>
           </li>
           <li>
-            <a href="#" className="link">
+            <a
+              href="#testimonials"
+              className="link"
+              onClick={() => setIsMenuActive(false)}
+            >
               Testimonials
             </a>
           </li>
           <li>
-            <a href="#" className="link">
+            <a
+              href="#contact-me"
+              className="link"
+              onClick={() => setIsMenuActive(false)}
+            >
               Contact me
             </a>
           </li>
           <li>
-            <a href="#" className="btn">
+            <a
+              href="#contact-me"
+              className="btn"
+              onClick={() => setIsMenuActive(false)}
+            >
               Let's Talk
             </a>
           </li>
