@@ -10,7 +10,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 export default function ContactMe() {
   return (
-    <section>
+    <section id="contact-me">
       <div className="wrapper p-block-9">
         <div className="text-center">
           <span className="sub-text overlay-text middle" datatype="Contact Me">
@@ -75,11 +75,13 @@ export default function ContactMe() {
                   className="input-field select"
                 >
                   <option disabled value="Select">
-                    Select
+                    Select interest
                   </option>
-                  <option value="Website Design">Canada</option>
-                  <option value="UAE">UI/UX Design</option>
-                  <option value="Spain">App Design</option>
+                  <option value="website-project">New website project</option>
+                  <option value="hourly">Hourly support</option>
+                  <option value="monthly">Monthly support</option>
+                  <option value="quarterly">Quarterly support</option>
+                  <option value="other">Other / Something Else</option>
                 </select>
               </div>
             </div>
@@ -94,11 +96,12 @@ export default function ContactMe() {
                   className="input-field select"
                 >
                   <option disabled value="Select">
-                    Select
+                    Select budget
                   </option>
-                  <option value="Canada">$100-$500</option>
-                  <option value="UAE">$500-$1000</option>
-                  <option value="Spain">$1000+</option>
+                  <option value="Hourly">$15 per hour</option>
+                  <option value="Monthly">$500 per month</option>
+                  <option value="Quarterly">$1,200 for 3 months</option>
+                  <option value="Project">Over $300</option>
                 </select>
               </div>
               <div className="input-container">
@@ -111,7 +114,7 @@ export default function ContactMe() {
                   className="input-field select"
                 >
                   <option disabled value="Select">
-                    Select
+                    Select country
                   </option>
                   <option value="Canada">$100-$500</option>
                   <option value="UAE">$500-$1000</option>

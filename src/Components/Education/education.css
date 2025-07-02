@@ -16,3 +16,10 @@
 .p-bottom-1 {
   padding-bottom: 1rem;
 }
+
+.card {
+  margin-bottom: 2rem;
+}
+.flex {
+  flex-wrap: nowrap;
+}

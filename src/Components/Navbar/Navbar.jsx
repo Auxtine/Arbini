@@ -47,7 +47,7 @@ export default function Navbar() {
           </li>
           <li>
             <a href="#" className="link">
-              PProjects
+              Projects
             </a>
           </li>
           <li>
@@ -56,7 +56,7 @@ export default function Navbar() {
             </a>
           </li>
           <li>
-            <a href="#" className="link">
+            <a href="#contact-me" className="link">
               Contact me
             </a>
           </li>

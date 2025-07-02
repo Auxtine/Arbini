@@ -47,10 +47,15 @@ export default function Education() {
           </h2>
         </div>
 
-        <div className="flex gap-5 mt-5">
+        <div className="gap-5 mt-5">
           <Card
             Item={education}
             title="Education"
+            icon={<RiGraduationCapFill />}
+          />
+          <Card
+            Item={otherCertificates}
+            title="Other Certifications"
             icon={<RiGraduationCapFill />}
           />
           <Card
@@ -67,41 +72,56 @@ export default function Education() {
 const education = [
   {
     id: 1,
-    institute: "National Open University",
-    subtitle: "BSc In Visual Arts",
-    date: "2012-2014",
+    institute: "University of Abuja",
+    subtitle: "MSc In Financial Mathematics (Awaiting result)",
+    date: "2022-2025",
   },
   {
     id: 2,
-    institute: "Covenant University",
-    subtitle: "BSc In Physics",
-    date: "2012-2014",
+    institute: "Federal University of Lafia, Nasarawa state",
+    subtitle: "BSc In Mathematics",
+    date: "2012-2016",
+  },
+];
+
+const otherCertificates = [
+  {
+    id: 1,
+    institute: "NCWD ICT department, Abuja",
+    subtitle: "Web Design and Programming",
+    date: "Sept 2024",
   },
   {
-    id: 3,
-    institute: "Baze University",
-    subtitle: "BSc In Chemistry",
-    date: "2012-2014",
+    id: 2,
+    institute: "Rhema Redemption World Outreach, Abuja",
+    subtitle: "Diploma - Computer Training",
+    date: "Nov 2011",
   },
 ];
 
 const workExperience = [
   {
     id: 1,
-    institute: "InsideLancer",
-    subtitle: "Sebior product designer",
-    date: "2012-2014",
+    institute: "Self employed",
+    subtitle: "Web Developer",
+    date: "2025-present",
   },
   {
     id: 2,
-    institute: "Self Employed",
-    subtitle: "Visual Arts",
-    date: "2012-2014",
+    institute: "Chinox Guest Inn, Wuse, Abuja",
+    subtitle: "Supervisor | Receptionist | Waiter",
+    date: "Jan '21 Oct '22",
   },
   {
     id: 3,
-    institute: "Graphic Stdios",
-    subtitle: "Web Designer",
-    date: "2012-2014",
+    institute: "Gifted International Academy, Abuja",
+    subtitle: "Mathematics Teacher",
+    date: "Jan-Dec 2019",
+  },
+  {
+    id: 4,
+    institute: "Ehugbo Technical College, Ebonyi State",
+    subtitle: "Mathematics Teacher (NYSC)",
+    date: "May '17 - Apr '18",
   },
 ];
