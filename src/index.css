@@ -15,12 +15,9 @@
   --surface-clr: #141414;
   --text-primary-clr: #fff;
   --text-secondary-clr: #b1b1b1;
-  --accent-clr: #18fcfe;
-  /* --accent-clr: #78fc0f; */
+  --accent-clr: #c29b56;
   --fix-clr: #080808;
 }
-
-/* #9cf6f6 */
 
 [data-theme="light"] {
   --background-clr: #fff;

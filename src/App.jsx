@@ -20,17 +20,17 @@ function Home() {
     <>
       <Navbar />
       <Hero />
-      <Headline />
+      {/* <Headline /> */}
       <Services />
       <AboutMe />
       <Projects />
-      <Headline />
+      {/* <Headline /> */}
       <Education />
       <Plans />
-      <Headline />
+      {/* <Headline /> */}
       <Testimonial />
       <ContactMe />
-      <Headline />
+      {/* <Headline /> */}
       <Footer />
     </>
   );

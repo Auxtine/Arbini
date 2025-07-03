@@ -210,9 +210,6 @@ export default function ContactMe() {
                   <FaXTwitter />
                 </a>
                 <a href="#" className="icon-container black-inverse">
-                  <FaPinterestP />
-                </a>
-                <a href="#" className="icon-container black-inverse">
                   <FaInstagram />
                 </a>
                 <a

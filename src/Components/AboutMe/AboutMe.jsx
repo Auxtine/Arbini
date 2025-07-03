@@ -14,12 +14,12 @@ export default function AboutMe() {
             About Me
           </span>
           <h2>
-            Who is <span className="green-text">Arbini?</span>
+            Who is <span className="green-text">Ezra?</span>
           </h2>
           <p className="para">
-            I'm Arbini, a passionate frontend developer based in Abuja, Nigeria.
-            I specialize in building modern, responsive websites using tools
-            like React, JavaScript, and CSS. My goal is to create user-friendly
+            I'm Ezra, a passionate frontend developer based in Abuja, Nigeria. I
+            specialize in building modern, responsive websites using tools like
+            React, JavaScript, and CSS. My goal is to create user-friendly
             interfaces that not only look great but also function smoothly
             across all devices.
           </p>

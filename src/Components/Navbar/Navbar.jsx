@@ -25,7 +25,7 @@ export default function Navbar() {
     <header>
       <nav className="flex between wrapper navbar">
         <a href="#" className="logo">
-          <span>A</span> Arbini
+          <span>A</span> Arbini.dev
         </a>
 
         {/* DESKTOP MENU */}

@@ -43,7 +43,7 @@ export default function Projects() {
 
   return (
     <section id="projects">
-      <div className="wrapper p-block-9">
+      <div className="wrapper p-block-9 border-btm">
         <div className="flex between gap-4">
           <div>
             <span className="sub-text overlay-text" datatype="My Portfolio">

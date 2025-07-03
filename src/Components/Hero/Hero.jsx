@@ -9,7 +9,7 @@ export default function Hero() {
         <div className="hero-content">
           <span className="sub-text">Hello there!</span>
           <h1>
-            <span className="green-text">I'm Arbini,</span>
+            <span className="green-text">I'm Ezra,</span>
             <br />
             Web Developer based in Abuja, Nigeria.
           </h1>

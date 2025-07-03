@@ -50,6 +50,7 @@
   background: var(--surface-clr);
   border: 0.1rem solid rgba(123, 123, 123, 0.2);
   padding: 1rem;
+  color: var(--text-primary-clr);
 }
 
 .email-field:focus {
@@ -63,4 +64,5 @@
   color: var(--fix-clr);
   border: none;
   border-radius: 0 1rem 1rem 0;
+  cursor: pointer;
 }

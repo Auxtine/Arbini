@@ -16,20 +16,19 @@ export default function Footer() {
           <h2>
             Let's <span className="green-text">Connect</span> There
           </h2>
-          <a href="#" className="btn self-end">
+          <a href="#contact-me" className="btn self-end">
             Hire Me Now
           </a>
         </div>
         <div className="p-block-7 flex flex-start gap-4">
           <div className="footer-wrapper">
             <a href="#" className="logo">
-              <span>A</span> Arbini
+              <span>A</span> Arbini.dev
             </a>
 
             <p className="mt-2">
-              I'm an experienced web Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Quis veniam sequi dolorem hic reprehenderit
-              ducimus.
+              Frontend developer passionate about turning ideas into
+              user-friendly websites. Based in Abuja, Nigeria.
             </p>
 
             <div className="flex gap-1 mt-2">
@@ -66,27 +65,27 @@ export default function Footer() {
               </a>
             </li>
             <li className="mt-2">
-              <a href="#" className="link">
+              <a href="#services" className="link">
                 Services
               </a>
             </li>
             <li className="mt-2">
-              <a href="#" className="link">
+              <a href="#about-me" className="link">
                 About me
               </a>
             </li>
             <li className="mt-2">
-              <a href="#" className="link">
-                PProjects
+              <a href="#projects" className="link">
+                Projects
               </a>
             </li>
             <li className="mt-2">
-              <a href="#" className="link">
+              <a href="#testimonials" className="link">
                 Testimonials
               </a>
             </li>
             <li className="mt-2">
-              <a href="#" className="link">
+              <a href="#contact-me" className="link">
                 Contact me
               </a>
             </li>
@@ -97,24 +96,32 @@ export default function Footer() {
               <h6>Contact</h6>
             </li>
             <li className="mt-2">
-              <a href="#" className="link">
-                +01 234 567 89
+              <span href="#" className="link">
+                +234-813-8464-573
+              </span>
+            </li>
+            <li className="mt-2">
+              <a
+                href="mailto:augustineezra@gmail.com?subject=Hello Ezra&body=I saw your portfolio and would like to talk!"
+                className="link"
+              >
+                augustineezra@gmail.com
               </a>
             </li>
             <li className="mt-2">
-              <a href="#" className="link">
-                www.example.com
+              <a
+                href="https://www.linkedin.com/in/ezra-austine"
+                className="link"
+              >
+                linkedin.com/in/ezra-austine
               </a>
             </li>
             <li className="mt-2">
-              <a href="#" className="link">
-                example@gmail.com
-              </a>
-            </li>
-            <li className="mt-2">
-              <a href="#" className="link">
-                2324 Royal Avenue
-              </a>
+              <span href="#" className="link">
+                Airport road,
+                <br />
+                Abuja, Nigeria.
+              </span>
             </li>
           </ul>
 
