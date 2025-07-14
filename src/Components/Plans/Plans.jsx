@@ -59,7 +59,7 @@ export default function Plans() {
             Get Started
           </a>
         </div>
-        <div className="flex mt-5 gap-5">{renderPlansData}</div>
+        <div className="flex mt-5 gap-5 flex-1024">{renderPlansData}</div>
       </div>
     </section>
   );

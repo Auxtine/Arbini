@@ -81,3 +81,9 @@ img {
 html {
   scroll-behavior: smooth;
 }
+
+@media (max-width: 1024px) {
+  .flex-1024 {
+    flex-wrap: wrap !important;
+  }
+}

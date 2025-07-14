@@ -56,7 +56,9 @@ export default function Services() {
           </Link>
         </div>
 
-        <div className="flex gap-2 stretch mt-5">{renderServicesData}</div>
+        <div className="flex gap-2 stretch mt-5 flex-1024">
+          {renderServicesData}
+        </div>
       </div>
     </section>
   );

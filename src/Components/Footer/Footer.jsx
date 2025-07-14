@@ -20,7 +20,7 @@ export default function Footer() {
             Hire Me Now
           </a>
         </div>
-        <div className="p-block-7 flex flex-start gap-4">
+        <div className="p-block-7 flex flex-start gap-4 flex-1024">
           <div className="footer-wrapper">
             <a href="#" className="logo">
               <span>A</span> Arbini.dev
