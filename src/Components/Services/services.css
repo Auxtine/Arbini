@@ -115,3 +115,23 @@ h4 {
     padding-block: 5rem;
   }
 }
+
+@media screen and (max-width: 576px) {
+  h2 {
+    font-size: 1rem;
+  }
+
+  .p-block-9 {
+    padding-block: 1rem;
+  }
+  h4 {
+    font-size: 1.3rem;
+  }
+  .service-icon {
+    width: 3rem;
+    font-size: 1.2rem;
+  }
+  .gap-2 {
+    gap: 0.2rem;
+  }
+}
