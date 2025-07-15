@@ -5,7 +5,7 @@ import "./hero.css";
 export default function Hero() {
   return (
     <section>
-      <div className="hero-section flex wrapper gap-4">
+      <div className="hero-section flex wrapper gap-4 border-btm flex-1024">
         <div className="hero-content">
           <span className="sub-text">Hello there!</span>
           <h1>
@@ -21,7 +21,7 @@ export default function Hero() {
             <a href="#projects" className="btn">
               View My Works
             </a>
-            <a href={CV} download="My CV" className="btn border-btn">
+            <a href={CV} download="My CV" className="btn">
               Download CV
             </a>
           </div>

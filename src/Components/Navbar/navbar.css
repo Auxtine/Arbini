@@ -125,3 +125,13 @@
     transform: translateX(-50%);
   }
 }
+
+@media (max-width: 576px) {
+  .logo {
+    font-size: 1.3rem;
+  }
+  .logo span {
+    width: 2rem;
+    margin-right: 0.2rem;
+  }
+}
