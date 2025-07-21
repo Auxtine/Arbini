@@ -50,7 +50,7 @@ export default function ContactMe() {
           </h2>
         </div>
 
-        <div className="flex gap-5 mt-5 stretch">
+        <div className="flex flex-576 gap-5 mt-5 stretch">
           <form ref={form} onSubmit={sendEmail}>
             <div className="flex gap-2">
               <div className="input-container">

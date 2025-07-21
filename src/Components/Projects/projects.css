@@ -60,3 +60,11 @@ h3 {
     gap: 2rem;
   }
 }
+@media screen and (max-width: 576px) {
+  .list {
+    padding: 0.4rem 0.8rem;
+  }
+  .mt-2 {
+    margin-top: 1rem;
+  }
+}

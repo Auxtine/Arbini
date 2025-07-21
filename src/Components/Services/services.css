@@ -134,4 +134,7 @@ h4 {
   .gap-2 {
     gap: 0.2rem;
   }
+  .overlay-text::before {
+    font-size: 2rem;
+  }
 }

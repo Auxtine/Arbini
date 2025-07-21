@@ -87,3 +87,8 @@ html {
     flex-wrap: wrap !important;
   }
 }
+@media (max-width: 576px) {
+  .flex-576 {
+    flex-wrap: wrap !important;
+  }
+}

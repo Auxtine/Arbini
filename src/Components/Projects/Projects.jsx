@@ -8,12 +8,12 @@ import { Link } from "react-router-dom";
 export default function Projects() {
   const renderProjectsData = projectsData.map((project) => {
     return (
-      <div className="card flex gap-5 project" key={project.id}>
+      <div className="card flex flex-576 gap-5 project" key={project.id}>
         <div className="project-image">
           <img src={project.image} />
         </div>
         <div className="project-content">
-          <ul className="flex gap-1">
+          <ul className="flex flex-576 gap-1">
             {project.tech.map((technology) => {
               return (
                 <li key={technology.id} className="list">
@@ -60,7 +60,7 @@ export default function Projects() {
           </Link>
         </div>
 
-        <div className="flex column gap-2 mt-5">{renderProjectsData}</div>
+        <div className="flex column gap-2 mt-5 ">{renderProjectsData}</div>
       </div>
     </section>
   );

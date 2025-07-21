@@ -143,7 +143,7 @@ export default function Footer() {
       </div>
 
       <div className="copyright">
-        <div className="wrapper flex between">
+        <div className="wrapper flex flex-576 between">
           <p>Copyright &copy; Arbini. All Rights Reserved</p>
           <p>User Terms & condition | Privacy Policy</p>
         </div>
